@@ -36,7 +36,6 @@ module.exports = {
                     response
                 }) => {
                     if (response.statusCode === 200 && data) {
-                        console.log(data);
                         resolve(data);
                     } else {
                         reject(new Error(`Failed to retrieve the meme due to resposnse error ${response.statusCode}, Please try again later.`))
