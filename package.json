@@ -1,0 +1,17 @@
+{
+  "name": "codinglove-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for codinglove.com to get the top programming memes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "codinglove"
+  ],
+  "author": "Captien",
+  "license": "MIT",
+  "dependencies": {
+    "scrape-it": "^5.1.4"
+  }
+}
