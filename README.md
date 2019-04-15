@@ -1,6 +1,8 @@
 # codinglove-scraper
 Scraper for thecodinglove.com to get the top programming memes
 
+[![https://nodei.co/npm/codinglove-scraper.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/codinglove-scraper.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/codinglove-scraper)
+
 ## Installation
 
 ```bash
