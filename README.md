@@ -3,6 +3,10 @@ Scraper for thecodinglove.com to get the top programming memes
 
 [![https://nodei.co/npm/codinglove-scraper.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/codinglove-scraper.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/codinglove-scraper)
 
+[![Build Status](https://travis-ci.org/Carbowix/codinglove-scraper.png?branch=master)](https://travis-ci.org/Carbowix/codinglove-scraper)
+[![npm version](https://badge.fury.io/js/codinglove-scraper.svg)](https://badge.fury.io/js/codinglove-scraper)
+[![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json)](https://snyk.io/test/github/carbowix/codinglove-scraper?targetFile=package.json)
+
 ## Installation
 
 ```bash
