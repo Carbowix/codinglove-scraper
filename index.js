@@ -19,12 +19,12 @@ function getRandomMemeLink() {
             }
         })
     });
-};
+}
 
 module.exports = {
     getRandomMeme: () => {
         return new Promise((resolve, reject) => {
-            getRandomMemeLink().then(link => {
+            getRandomMemeLink().then((link) => {
                 scrapeIt(link, {
                     title: "h1.blog-post-title",
                     gif: {
@@ -38,7 +38,7 @@ module.exports = {
                     if (response.statusCode === 200 && data) {
                         resolve(data);
                     } else {
-                        reject(new Error(`Failed to retrieve the meme due to resposnse error ${response.statusCode}, Please try again later.`))
+                        reject(new Error(`Failed to retrieve the meme due to resposnse error ${response.statusCode}, Please try again later.`));
                     }
                 });
             }).catch(console.error);
@@ -91,9 +91,9 @@ module.exports = {
                 if (response.statusCode === 200 && data) {
                     resolve(data);
                 } else {
-                    reject(new Error(`Failed to retrieve the memes due to resposnse error ${response.statusCode}, Please try again later.`))
+                    reject(new Error(`Failed to retrieve the memes due to resposnse error ${response.statusCode}, Please try again later.`));
                 }
-            })
+            });
         });
     }
 };
