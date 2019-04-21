@@ -6,6 +6,7 @@ Scraper for thecodinglove.com to get the top programming memes
 [![Build Status](https://travis-ci.org/Carbowix/codinglove-scraper.png?branch=master)](https://travis-ci.org/Carbowix/codinglove-scraper)
 [![npm version](https://badge.fury.io/js/codinglove-scraper.svg)](https://badge.fury.io/js/codinglove-scraper)
 [![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json)](https://snyk.io/test/github/carbowix/codinglove-scraper?targetFile=package.json)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ccb366a6c59642a3a85d16214273e7f9)](https://www.codacy.com/app/Carbowix/codinglove-scraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Carbowix/codinglove-scraper&amp;utm_campaign=Badge_Grade)
 
 ## Installation
 
