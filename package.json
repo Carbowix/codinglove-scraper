@@ -12,6 +12,12 @@
   "author": "Captien",
   "license": "MIT",
   "dependencies": {
-    "scrape-it": "^5.1.4"
-  }
+    "scrape-it": "^5.1.4",
+    "snyk": "^1.189.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
