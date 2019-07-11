@@ -6,3 +6,21 @@ patch:
   SNYK-JS-LODASH-450202:
     - scrape-it > cheerio-req > cheerio > lodash:
         patched: '2019-07-04T06:18:39.935Z'
+    - snyk > lodash:
+        patched: '2019-07-11T19:11:44.140Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-11T19:11:44.140Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-11T19:11:44.140Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-11T19:11:44.140Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-11T19:11:44.140Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-11T19:11:44.140Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-11T19:11:44.140Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-11T19:11:44.140Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-11T19:11:44.140Z'
